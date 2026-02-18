@@ -5,3 +5,5 @@ This is a website for perform basic arithmetic operations .
 # Technologies Involved :-
 
 * **HTML** - Structure of the Website .
+* **CSS** - Design of the Website .
+* **JavaScript** - Main Functionality of Website .
