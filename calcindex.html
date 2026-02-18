@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Linking CSS file with HTML-->
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+    <!--Displaying the whole content in center of the page-->
+    <center><br><br><br><br><br><br><br>
+        <!--Display the result in a center box-->
+        <div class="center-box">
+        <h1>Simple Calculator</h1>
+        <center>
+        <table>
+        <tr>
+            <td>
+            <!--Enter the First number for calculation-->
+            <label>Enter no : 1</label>
+            <input type="number" id="a"><br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <!--Enter the Second number for calculation-->
+            <label>Enter no : 2</label>
+            <input type="number" id="b"><br><br>
+            </td>
+        </tr>
+        </table>
+        </center>
+        <!--Align the buttons-->
+        <div>
+            <!--Button for Addition-->
+            <button class="btn" onclick="add()">+</button>
+            <!--Button for Subtraction-->
+            <button class="btn" onclick="sub()">-</button>
+            <!--Button for Multiplication-->
+            <button class="btn" onclick="mul()">*</button>
+            <!--Button for Division-->
+            <button class="btn" onclick="div()">/</button>
+            <!--Button for Modulus-->
+            <button class="btn" onclick="mod()">%</button>
+        </div>
+        <!--Displaying result-->
+        <p id="c"></p>
+        <!--Linking JavaScript file with HTML-->
+        <script src="Calculator.js"></script>
+    </center>
+</body>
+</html>
